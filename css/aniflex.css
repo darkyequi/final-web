@@ -1,0 +1,145 @@
+html, body {
+    height: 100;
+    width: 100;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 70px;
+    margin-right: 15px;
+  }
+
+  .logo span {
+    font-size: 2.5em;
+    color: black;
+    font-weight: 600;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav a {
+    color: #DF1D1D;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  nav a:hover {
+    color: black;
+    text-decoration: underline #DF1D1D;
+  }
+
+  .image-container {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 100px;
+  }
+
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .additional-content {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    max-width: 130px; 
+    margin: 0 250px;
+  }
+
+   
+  .recommendation-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0 250px;
+    text-align: center;
+  } 
+
+  .recommendation-description {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 250px;
+    text-align: center;
+    color: rgba(150, 150, 150, 2);
+  }
+  
+  .additional-text {
+    font-size: 2.0em; 
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 8em; 
+    margin-right: 250px; 
+  }
+
+  .additional-text p {
+    text-align: justify;
+    margin: 0;
+    text-indent: 4em; 
+  }
+
+
+  .red-text {
+    color: red;
+    border-bottom: 1px solid red;
+  }
+
+  .new-subtitle {
+    font-size: 4.78em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0 250px;
+  }
+
+  .new-image {
+    width: 1003px;
+    height: 807px;
+    top: 9310px;
+    left: 221px;
+    margin: auto;
+    display: block;
+  }
+  .margin-below {
+    margin-bottom: 150px;
+      }
+      .link-below-image {
+      margin: 0 250px;
+      font-size: 1.75em;
+      font-style: italic;
+  }
+  .link-below-image a {
+color: rgba(150, 150, 150, 1);
+text-decoration: underline;
+}
+.Available{
+font-size: 2em;
+margin: 20px 250px;
+font-weight: bold;
+}
