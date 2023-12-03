@@ -144,16 +144,23 @@ font-size: 2em;
 margin: 20px 250px;
 font-weight: bold;
 }
-@media only screen and (max-width: 600px) {
-      nav {
-        flex-direction: column;
-      }
-
-      .logo {
-        margin-bottom: 10px;
-      }
-
-      .recommendation-title,
-      .new-subtitle {
-        font-size: 1.5em;
-      }
+.additional2-text {
+    font-size: 1.5em; 
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 8em; 
+    margin-right: 250px;
+  }
+  .logo2-text {
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .nimage{
+    height: auto;
+    width: 50px;
+  }
